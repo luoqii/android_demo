@@ -17,7 +17,7 @@
     <view
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        class="com.example.song.bangbang.org.androiddemo.KeyEventDispatching$MyViewGroup"
+        class="com.example.song.bangbang.org.androiddemo.TouchEventDispatching$MyViewGroup"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:contentDescription=" 1">
@@ -25,7 +25,7 @@
         <view
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            class="com.example.song.bangbang.org.androiddemo.KeyEventDispatching$MyViewGroup"
+            class="com.example.song.bangbang.org.androiddemo.TouchEventDispatching$MyViewGroup"
             android:layout_below="@+id/textView"
              android:orientation="horizontal"
             android:contentDescription="  2">
@@ -33,7 +33,7 @@
             <view
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                class="com.example.song.bangbang.org.androiddemo.KeyEventDispatching$MyButton"
+                class="com.example.song.bangbang.org.androiddemo.TouchEventDispatching$MyButton"
                 android:layout_below="@+id/textView"
                 android:layout_alignParentRight="true"
                 android:text="button1"
@@ -42,7 +42,7 @@
             <view
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                class="com.example.song.bangbang.org.androiddemo.KeyEventDispatching$MyButton"
+                class="com.example.song.bangbang.org.androiddemo.TouchEventDispatching$MyButton"
                 android:layout_below="@+id/textView"
                 android:contentDescription="   3"
                 android:text="button2"/>

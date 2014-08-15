@@ -74,9 +74,21 @@ public class KeyEventDispatching extends Activity {
     }
 
     public static String toString(KeyEvent event) {
-        return event.getAction() + "/" + event.getKeyCode();
+        return actionToString(event.getAction()) + "/" + event.getKeyCode();
     }
-
+    
+    public static String actionToString(int action) {
+        switch (action) {
+            case KeyEvent.ACTION_DOWN:
+                return "ACTION_DOWN";
+            case KeyEvent.ACTION_UP:
+                return "ACTION_UP";
+            case KeyEvent.ACTION_MULTIPLE:
+                return "ACTION_MULTIPLE";
+            default:
+                return Integer.toString(action);
+        }
+    }
 
     public static class MyViewGroup extends LinearLayout {
 
