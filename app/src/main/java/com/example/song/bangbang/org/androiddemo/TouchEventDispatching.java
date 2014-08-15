@@ -121,7 +121,7 @@ public class TouchEventDispatching extends Activity {
 
         @Override
         public boolean dispatchTouchEvent(MotionEvent event) {
-            Log.d(TAG, "MyViewGroup dispatchTouchEvent. ev: " + TouchEventDispatching.toString(event));
+            Log.d(TAG, getContentDescription() + "MyViewGroup dispatchTouchEvent. ev: " + TouchEventDispatching.toString(event));
 
         	boolean handled =  super.dispatchTouchEvent(event);
 
