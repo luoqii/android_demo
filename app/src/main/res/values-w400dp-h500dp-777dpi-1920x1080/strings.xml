@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+    see {androidSource}/frameworks/base/libs/androidfw/ResourceTypes.cpp 
+    match isBetterThan isMoreSpecifi
+    see {androidSource}/frameworks/base/tools/aapt/AaptAssets.cpp
+     -->
+    <string name="place_holder">place holder</string>
+</resources>

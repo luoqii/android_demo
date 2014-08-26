@@ -6,6 +6,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry exported="true" kind="lib" path="/home/luoqii/android_demo/app/libs/android_common_lib.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bysong/android_demo/app/libs/android_common_lib.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

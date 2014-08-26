@@ -14,7 +14,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-
+/**
+ * as you can guess, it's just a empyt activity.
+ * 
+ * used for memory analysis, or other purpose.
+ * @author bysong
+ *
+ */
 public class EmptyActivity extends Activity {
 
     private static final String TAG = EmptyActivity.class.getSimpleName();
