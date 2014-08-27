@@ -11,10 +11,11 @@
       
       if ($attribute > setting.$attribute) return false;
       discard all config which large then devices's config.
+      向下就近原则
     isBetterThan :
       smallestScreenWidthDp
       screenSizeDp && screenSizeDp
-      density
+      density (有点复杂)
       screenWidth && screenHeight
       
       the closest config wins.
