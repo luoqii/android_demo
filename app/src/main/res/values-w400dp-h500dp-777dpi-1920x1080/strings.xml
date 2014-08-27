@@ -2,7 +2,23 @@
 <resources>
     <!-- 
     see {androidSource}/frameworks/base/libs/androidfw/ResourceTypes.cpp 
-    match isBetterThan isMoreSpecifi
+    match :
+      smallestScreenWidthDp
+      screenWidthDp
+      screenHeightDp
+      screenWidth
+      screenHeight
+      
+      if ($attribute > setting.$attribute) return false;
+      discard all config which large then devices's config.
+    isBetterThan :
+      smallestScreenWidthDp
+      screenSizeDp && screenSizeDp
+      density
+      screenWidth && screenHeight
+      
+      the closest config wins.
+    isMoreSpecifi
     see {androidSource}/frameworks/base/tools/aapt/AaptAssets.cpp
      -->
     <string name="place_holder">place holder</string>
